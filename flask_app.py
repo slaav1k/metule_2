@@ -7,11 +7,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "HELLO WORLD! КРЫМ НАШ! ПУТИН СИЛА! ПАША ВЫЗДОРАВЛИВАЙ!"
-
-
-@app.route("love")
-def love():
     return "I LOVE YOU MY BABY!"
 
 
